@@ -1,0 +1,607 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Outward issue link (Relates),Attachment,Custom field (Goals),Custom field (Issue color),Custom field (Rank),Sprint,Custom field (Start date),Custom field (Story point estimate),Custom field (Team),Custom field (Vulnerability),Custom field (development),Parent,Parent key,Parent summary,Status Category,Status Category Changed
+The [ACTIVATE PROFILE] button does not trigger profile activation or any response on the Preview profile screen,HUN-46,10493,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,15/лют./26 3:30 PM,17/лют./26 4:53 PM,25/лют./26 4:12 PM,,,0,"Preconditions: The user is authorized as a Recruiter.
+
+ 
+
+Steps to reproduce:
+
+# Open the Preview profile screen.
+# Tap the [ACTIVATE PROFILE] button.
+# Observe the system response and the profile status.
+
+ 
+
+Actual result: The [ACTIVATE PROFILE] button is non-responsive upon tapping.
+Expected result: After tapping the [ACTIVATE PROFILE] button, the profile status changes to ""Active"" or mark it on review.
+
+Environment: iPhone 11 Pro, iOS 26.2.1, App version 1.2.6 22",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-17,,,,,,,,,,,,,,16/лют./26 4:58 PM;1e78eac1-e4c8-4584-a597-d2efb869c877;video_2026-02-16_16-57-58.mp4;https://qaflex26ikabanchuk.atlassian.net/rest/api/3/attachment/content/10003,,,0|i000av:,,,,,,,10005,HUN-6,MOB,To Do,16/лют./26 4:58 PM
+"The user is unable to save the location in the ""Desired office locations"" dropdown after tapping the ""Save changes"" link on the  ""Expectations"" form.",HUN-45,10492,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,High,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,15/лют./26 2:51 PM,17/лют./26 4:53 PM,16/лют./26 4:59 PM,,,0,"Preconditions: 
+
+ 
+
+Steps to reproduce:
+
+# Open the ""Expectations"" form.
+#  Select “Office” checkbox.
+# Navigate to the ""Desired office locations"" dropdown.
+# Tap on the field and enter a location name in the ""Search"" field
+# Tap on the ""Save changes"" link that appears.
+# Check if the entered location is displayed in the ""Desired office locations"" field.
+
+ 
+
+Actual result: The user is redirected back to the form, but the entered location is not saved. The ""Desired office locations"" field remains empty
+Expected result: After tapping the ""Save changes"" link, the user is redirected back to the form, and the entered location is successfully saved and displayed in the field.
+
+Environment: iPhone 11 Pro, iOS 26.2.1, App version 1.2.6 22",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-17,,,,,,,,,,,,,,16/лют./26 4:54 PM;1e78eac1-e4c8-4584-a597-d2efb869c877;video_2026-02-16_16-52-53.mp4;https://qaflex26ikabanchuk.atlassian.net/rest/api/3/attachment/content/10002,,,0|i000an:,,,,,,,10005,HUN-6,MOB,To Do,16/лют./26 4:55 PM
+"The user is unable to enter or select data in the ""Select your location"" dropdown on the ""Expectations"" form.",HUN-44,10491,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Highest,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,15/лют./26 2:40 PM,17/лют./26 4:53 PM,16/лют./26 4:59 PM,,,0,"Preconditions: 
+
+ 
+
+Steps to reproduce:
+
+# Open the ""Expectations"" form.
+# Navigate to the ""Select your location"" dropdown.
+# Tap on the field to open the search input.
+# Enter a location name into the input field.
+# Observe the interface for any suggestion list or confirmation buttons.
+
+ 
+
+Actual result: The suggestion list does not appear after typing, and there are no buttons to save or confirm the entered text. The ""Select your location"" field remains empty, and data cannot be submitted.
+Expected result: After entering text, a suggestion list of locations appears, or some save button becomes available to confirm the entry. The selected location is successfully displayed in the field.
+
+ 
+
+Environment: iPhone 11 Pro, iOS 26.2.1, App version 1.2.6 22",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-17,,,,,,,,,,,,,,16/лют./26 4:54 PM;1e78eac1-e4c8-4584-a597-d2efb869c877;video_2026-02-16_16-52-44.mp4;https://qaflex26ikabanchuk.atlassian.net/rest/api/3/attachment/content/10001,,,0|i000af:,,,,,,,10005,HUN-6,MOB,To Do,16/лют./26 4:55 PM
+"The user is able to register with an invalid email format containing Cyrillic characters in the ""Email"" field on the ""Sign up"" page.",HUN-43,10490,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,High,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,15/лют./26 12:49 PM,17/лют./26 4:53 PM,16/лют./26 4:55 PM,,,0,"Preconditions: 
+
+ 
+
+Steps to reproduce:
+
+# Open the ""Sign up"" page.
+# Enter an invalid email address using Cyrillic characters in the ""Email"" field.
+# Fill in the remaining required fields with valid data.
+# Tap the [Create Account] button.
+# Observe the system response.
+
+ 
+
+Actual result:The user is able to register successfully with an email containing Cyrillic characters.
+Expected result: The user is unable to register with an invalid email format. A validation error message should appear
+
+ 
+
+Environment: iPhone 11 Pro, iOS 26.2.1, App version 1.2.6 22",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-16,,,,,,,,,,,,,,16/лют./26 4:43 PM;1e78eac1-e4c8-4584-a597-d2efb869c877;video_2026-02-16_16-43-08.mp4;https://qaflex26ikabanchuk.atlassian.net/rest/api/3/attachment/content/10000,,,0|i000a7:,,,,,,,10005,HUN-6,MOB,To Do,16/лют./26 4:55 PM
+"The user is redirected to a ""Page not found"" error in a new tab after clicking the [1-CLICK APPLY] button for certain vacancies on the ""Jobs"" page.",HUN-42,10489,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Highest,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,15/лют./26 11:47 AM,17/лют./26 5:23 PM,17/лют./26 5:22 PM,,,0,"Preconditions: The user is authorized as a Candidate.
+
+ 
+
+Steps to reproduce:
+
+# Open the ""[Jobs|https://huntd.tech/jobs]"" page.
+# Click the [1-CLICK APPLY] button on Niftys Full-Stack Web3 Engineer vacancie
+# Observe the validation messages.
+
+ 
+
+Actual result: For some vacancies, clicking the [1-CLICK APPLY] button opens a new tab with the error message: ""Page not found. The job board you were viewing is no longer active"".
+Expected result: The user is able to apply for any vacancy by clicking the [1-CLICK APPLY] button. A success pop-up should appear, confirming the application.
+
+Attachments: [link|https://www.loom.com/share/9af33796ffd849369abe476fe2f7f823]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-15,,,,,,,,,,,,,,,,,0|i00093:,,,,,,,10004,HUN-5,WEB,To Do,16/лют./26 4:34 PM
+"The ""Facebook"" icon link leads to unavailable content on the official Facebook page from the footer.",HUN-41,10488,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Low,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,15/лют./26 11:38 AM,17/лют./26 5:22 PM,17/лют./26 5:22 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Scroll down to the [footer|https://huntd.tech/]
+# Click on the ""Facebook"" icon link.
+# Observe the content on the redirected Facebook page.
+
+ 
+
+Actual result: The user is redirected to a Facebook page that displays the message: ""This content isn't available at the moment.""
+Expected result: The user is able to navigate to the official Facebook page via the *""*Facebook*""* icon link and view the content of the page.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1z_qkHDxiuqyJzH9ruwSbCP2BOeIfBh2r&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-14,,,,,,,,,,,,,,,,,0|i0008v:,,,,,,,10004,HUN-5,WEB,To Do,16/лют./26 4:29 PM
+"The ""Signal"" icon link is missing from the social media section on the footer.",HUN-40,10487,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Low,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,15/лют./26 11:25 AM,17/лют./26 5:22 PM,17/лют./26 5:22 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Scroll down to the [footer|https://huntd.tech/]
+# Observe the available social media links.
+
+ 
+
+Actual result: The *""*Signal"" icon link is missing from the social media section, making it impossible to navigate to the official page.
+Expected result: The user is able to see and navigate to the official Signal page via the ""Signal"" icon link.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1Q4_vHPCHwxETd809a4LoYPSWAelktX3W&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-14,,,,,,,,,,,,,,,,,0|i0008n:,,,,,,,10004,HUN-5,WEB,To Do,16/лют./26 4:28 PM
+"The ""Telegram"" icon link is missing from the social media section on the footer.",HUN-39,10486,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Low,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,15/лют./26 11:08 AM,17/лют./26 5:22 PM,17/лют./26 5:21 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Scroll down to the [footer|https://huntd.tech/]
+# Observe the available social media links.
+
+ 
+
+Actual result: The *""*Telegram"" icon link is missing from the social media section, making it impossible to navigate to the official page.
+Expected result: The user is able to see and navigate to the official Telegram page via the ""Telegram"" icon link.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1Q4_vHPCHwxETd809a4LoYPSWAelktX3W&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-14,,,,,,,,,,,,,,,,,0|i0008f:,,,,,,,10004,HUN-5,WEB,To Do,17/лют./26 5:22 PM
+"The info hint overlaps and blocks the functionality of ""English level"", ""Job experience"", and ""Technologies"" fields on the ""Find your first engineers"" form",HUN-38,10453,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,High,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,12/лют./26 3:58 PM,17/лют./26 5:21 PM,17/лют./26 5:20 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the ""[Find your first engineers|https://huntd.tech/profile/perfect-candidate]"" form
+# Observe how the info hint overlaps the surrounding area.
+# Try to interact with the ""English level"" dropdown, ""Job experience"" dropdown, and ""Technologies"" suggestion list located under or near the tooltip area.
+# Check the hitboxes of the tooltip element in DevTools to confirm the overlap.
+
+ 
+
+Actual result: The hint's transparent hitbox overlaps other fields. This prevents interaction with the ""English level"", ""Job experience"", and ""Technologies"" fields in the overlapping zone.
+Expected result: All dropdowns and suggestion lists under the hint remain fully functional and clickable.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1MWStIccsDKf7VV9MZcSjN4a4w4SS9bjc&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i00087:,,,,,,,10004,HUN-5,WEB,To Do,16/лют./26 4:25 PM
+"The NFT avatar is not received at the address provided in the ""Wallet address to receive free NFT"" field after submission on the ""Contact information"" form.",HUN-37,10420,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Low,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,12/лют./26 12:43 PM,17/лют./26 5:20 PM,17/лют./26 5:19 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the ""[Contact information|https://huntd.tech/profile/contacts?preview=candidate]"" form
+# Enter a valid wallet address into the field.
+# Click the [ACTIVATE PROFILE] button
+# Check the provided wallet address
+
+ 
+
+Actual result: The NFT avatar is not delivered to the provided wallet address after successful form submission.
+Expected result: The user receives an NFT avatar to the address specified in the ""Wallet address to receive free NFT"" field.
+
+Attachments: [link|https://www.loom.com/share/9facf2d08cb24848947512979b04fcac]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0007z:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 12:43 PM
+"The user is redirected to a 404 error page after clicking on the ""Backend Engineer"" link on the ""Bio"" form.",HUN-36,10387,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,12/лют./26 11:11 AM,17/лют./26 5:19 PM,17/лют./26 5:19 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the ""[Bio|https://huntd.tech/profile/candidate/bio]"" form
+# Click on the ""Backend Engineer"" link.
+# Observe the redirected page.
+
+ 
+
+Actual result: The user is redirected to a page that displays a ""404 This page could not be found"" error.
+Expected result: The user is redirected to the correct example page after clicking on the ""Backend Engineer"" link.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1xt3FsvSZEObG08yP4c5GSyV9CVbT_ss0&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0007r:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 11:11 AM
+"The user is redirected to a 404 error page after clicking on the ""Mobile Engineer"" link on the ""Bio"" form.",HUN-35,10386,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,12/лют./26 11:10 AM,17/лют./26 5:19 PM,17/лют./26 5:19 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the ""[Bio|https://huntd.tech/profile/candidate/bio]"" form
+# Click on the ""Mobile Engineer"" link.
+# Observe the redirected page.
+
+ 
+
+Actual result: The user is redirected to a page that displays a ""404 This page could not be found"" error.
+Expected result: The user is redirected to the correct example page after clicking on the ""Mobile Engineer"" link.
+
+Attachments: [+link+|https://drive.usercontent.google.com/download?id=1rbuecmEeEv9JQ0O6aizpUYZbkhbJXBDl&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0007j:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 11:10 AM
+"The user is redirected to a 404 error page after clicking on the ""Frontend Engineer"" link on the ""Bio"" form.",HUN-34,10385,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,12/лют./26 11:09 AM,17/лют./26 5:19 PM,17/лют./26 5:18 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the ""[Bio|https://huntd.tech/profile/candidate/bio]"" form
+# Click on the ""Frontend Engineer"" link.
+# Observe the redirected page.
+
+ 
+
+Actual result: The user is redirected to a page that displays a ""404 This page could not be found"" error.
+Expected result: The user is redirected to the correct example page after clicking on the ""Frontend Engineer"" link.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1hR4O54iMsv_7XsoB8nDYO9tUMQ0BcFBu&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0007b:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 11:09 AM
+"The user is able to proceed with an empty ""Month"" dropdown when the ""Year"" field is filled on the ""Experience"" form.",HUN-33,10352,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,11/лют./26 1:19 PM,17/лют./26 5:18 PM,17/лют./26 5:23 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the ""[Experience|https://huntd.tech/profile/candidate/experience]"" form
+# Enter a valid year into the ""Start date Year"" field.
+# Leave the ""Month"" dropdown empty
+# Click on the [SAVE] button.
+
+ 
+
+Actual result: The user is able to proceed and save the form with an empty ""Month"" dropdown. However, the entered ""Year"" is not saved in the system.
+Expected result: The user is unable to proceed with an empty ""Month"" dropdown. A validation error should appear, requiring both ""Month"" and ""Year"" to be filled before saving.
+
+Attachments: [link|https://www.loom.com/share/18912fe51e47401281717ce672c709c0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i00073:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 11:03 AM
+"The user is able to enter a future date in the ""Start date Year"" field on the ""Experience"" form.",HUN-32,10319,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,High,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,11/лют./26 1:08 PM,17/лют./26 5:18 PM,17/лют./26 5:16 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the ""[Experience|https://huntd.tech/profile/candidate/experience]"" form
+# Enter a year that is in the future to the ""Start date Year"" field.
+# Observe the field validation and the ability to proceed
+
+ 
+
+Actual result: The user is able to enter and proceed with a future date in the ""Start date Year"" field without any validation errors.
+Expected result: The user is unable to proceed with a future date in the ""Start date Year"" field. An error message should appear, and the data should be considered invalid.
+
+Attachments: [link|https://www.loom.com/share/ececa04cf15d4f4f9347d00520309baa]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0006v:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 11:00 AM
+"The ""Desired roles"" dropdown is not fully clickable on the ""Role"" form.",HUN-31,10286,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,11/лют./26 12:15 PM,17/лют./26 5:17 PM,25/лют./26 6:20 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the *""*[+Role+|https://huntd.tech/profile/candidate]*""* form
+# Try clicking on different parts of the ""Desired roles"" dropdown
+# Observe which areas of the field respond to the clicks.
+
+ 
+
+Actual result: The ""Desired roles"" dropdown is not fully clickable due to an overlapping transparent element
+Expected result: The ""Desired roles"" dropdown is fully clickable across its entire area, allowing the user to open the selection list by clicking anywhere within the field.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1EoLODUz8NZUm4TVcK0mbxoT4eVaJHFRb&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0006n:,,,,,,,10004,HUN-5,WEB,To Do,11/лют./26 12:15 PM
+"The ""Role"" field is not fully clickable for manual data entry on the ""Experience"" form",HUN-30,10253,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,11/лют./26 10:44 AM,17/лют./26 5:17 PM,17/лют./26 5:16 PM,,,0,"Preconditions: 
+
+
+
+Steps to reproduce:
+
+# Open the ""[Experience|https://huntd.tech/profile/candidate/experience]"" form
+# Try clicking on different parts of the ""Role"" field
+# Observe which areas of the field respond to the clicks.
+
+ 
+
+Actual result: The ""Role"" field is not fully clickable due to an overlapping transparent element
+Expected result: The ""Role"" field is fully clickable across its entire area, allowing the user to enter data manually.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1tOIqMjW0QM6I1WQ5l0_tTNh8L5DCrNqN&authuser=0]
+
+
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0006f:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 10:57 AM
+"The user is unable to select the EUR currency in the ""Desired salary in $"" field on the ""Expectations"" form.",HUN-29,10220,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Low,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,11/лют./26 10:15 AM,17/лют./26 5:16 PM,17/лют./26 5:16 PM,,,0,"Preconditions: 
+
+
+
+Steps to reproduce:
+
+# Open the ""[Expectations|https://huntd.tech/profile/candidate/job-expectations]"" form
+# Observe the ""Desired salary in $"" field
+
+ 
+
+Actual result: The ""Desired salary in $"" field is restricted to USD only, and there is no option to switch to EUR.
+Expected result: The user is able to select between USD and EUR currencies in the ""Desired salary"" field.
+
+Attachments: [Link|https://drive.usercontent.google.com/download?id=1XC2p4qZzFG9sX2pwQpCoBYOzQEPStFgQ&authuser=0]
+
+
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i00067:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 10:50 AM
+"The checkmark does not appear in the ""Office"" checkbox on the ""Expectations"" form after selection.",HUN-28,10187,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,11/лют./26 9:44 AM,17/лют./26 5:16 PM,17/лют./26 5:16 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the *""*[Expectations|https://huntd.tech/profile/candidate/job-expectations]*""* form.
+# Select the ""Office"" checkbox
+# Observe the checkbox state.
+
+ 
+
+Actual result: The checkmark does not appear in the ""Office"" checkbox after selection.
+Expected result: The checkmark appears in the ""Office"" checkbox after it is selected.
+
+Attachments: [link|https://www.loom.com/share/71e331457aab4c63bb0678c6b6240564]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0005z:,,,,,,,10004,HUN-5,WEB,To Do,12/лют./26 10:55 AM
+"The penultimate item in the ""Core technical skills"" field is not clickable on the ""Role"" form.",HUN-27,10154,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Low,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,10/лют./26 7:10 PM,17/лют./26 5:15 PM,17/лют./26 5:16 PM,,,0,"Preconditions:
+
+ 
+
+Steps to reproduce:
+
+# Open the *""*[Role|https://huntd.tech/profile/candidate]*""* form.
+# Type any valid characters into the ""Core technical skills"" field.
+# Hover over the penultimate item in the selection list.
+# Click on this item to select it.
+
+ 
+
+Actual result: The penultimate item is not fully clickable due to an overlapping transparent element
+Expected result: The penultimate item in the ""Core technical skills"" suggestion list is fully clickable across its entire area.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1EBXL3miTGgVWeKaKW0ZQ451hdkirTegu&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0005r:,,,,,,,10004,HUN-5,WEB,To Do,10/лют./26 7:10 PM
+"The user is able to select and add invalid technical skills from the ""Core technical skills"" field on the ""Role"" form.",HUN-26,10121,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,10/лют./26 6:49 PM,17/лют./26 5:15 PM,17/лют./26 5:17 PM,,,0,"Preconditions: 
+
+ 
+
+Steps to reproduce:
+
+# Open the *""*[Role|https://huntd.tech/profile/candidate]*""* form.
+# Type ""dh"" into the ""Core technical skills"" field.
+# Observe the selection list.
+
+ 
+
+Actual result: The user is able to select and add invalid skills
+Expected result: Invalid or random text should not be available for selection
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1xsto-82RoZW5B98ZFagkfsXwmxo6PN_P&authuser=0]
+
+ 
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-10,,,,,,,,,,,,,,,,,0|i0005j:,,,,,,,10004,HUN-5,WEB,To Do,10/лют./26 6:49 PM
+"Candidate experience is sorted from newest to oldest on ""Profile Preview"" page",HUN-25,10088,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Lowest,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,10/лют./26 4:45 PM,17/лют./26 5:24 PM,23/лют./26 6:50 PM,,,0,"Preconditions: User is logged in. 
+
+Candidate has a profile with at least two different experience entries.
+
+
+
+Steps to reproduce:
+
+# Open the *“*[Profile Preview|https://huntd.tech/candidate/qa-35857]*”* page
+# Observe Experience section
+
+ 
+
+Actual result: The candidate's experience should be sorted from oldest to newest.
+Expected result: The candidate's experience is sorted from newest to oldest.
+
+Attachments: [link|https://drive.usercontent.google.com/download?id=1WGPyXjhTM29SiUUU7lunA5ddsNXnFc3F&authuser=0]
+
+
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-9,,,,,,,,,,,,,,,,,0|i0005b:,,,,,,,10004,HUN-5,WEB,To Do,17/лют./26 5:24 PM
+"The feedback carousel contains an insufficient number of feedbacks on the ""For engineers"" page after scrolling through it.",HUN-24,10055,Bug,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Low,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,09/лют./26 11:02 AM,17/лют./26 5:14 PM,23/лют./26 6:59 PM,,,0,"Preconditions:
+
+
+Steps to reproduce:
+1. Open the *“*[For engineers|https://huntd.tech/]*”* page.
+2. Scroll down to the feedback carousel.
+3. Scroll through and observe the number of feedback.
+
+
+
+Actual result: The user can only see 5 feedbacks.
+Expected result: The user should be able to see 10 feedbacks.
+
+Attachments: [link|https://www.loom.com/share/83d797b1295e418fb2076aad4efa3ad9]
+
+
+Environment: Windows 10, Chrome 139.0.7258.155",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,HUN-8,,,,,,,,,,,,,,,,,0|i00053:,,,,,,,10004,HUN-5,WEB,To Do,09/лют./26 11:02 AM
+[DOC] Final Test Report & Statistics,HUN-23,10022,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 4:30 PM,17/лют./26 4:52 PM,,,,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000br:,SCRUM Sprint 1,,,,,,10006,HUN-7,DOC,To Do,07/лют./26 4:30 PM
+[DOC] RTM & Permission Testing Table,HUN-22,10021,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 4:30 PM,17/лют./26 4:52 PM,,,,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000bj:,SCRUM Sprint 1,,,,,,10006,HUN-7,DOC,To Do,07/лют./26 4:30 PM
+[DOC] Feature Decomposition,HUN-21,10020,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 4:30 PM,17/лют./26 4:52 PM,,,,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000bb:,SCRUM Sprint 1,,,,,,10006,HUN-7,DOC,To Do,07/лют./26 4:30 PM
+[DOC] Joint Test Plan,HUN-20,10019,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 4:29 PM,17/лют./26 4:52 PM,,,,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000b3:,SCRUM Sprint 1,,,,,,10006,HUN-7,DOC,To Do,07/лют./26 4:29 PM
+[MOB] Profile & Settings,HUN-19,10018,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 4:28 PM,15/лют./26 12:49 PM,09/лют./26 6:10 PM,,,0,"The mobile app is an +MVP+ to make communication easier and, you know, more mobile. The app contains only some features of the web app e.g. some chat features, +IAM+, and profile settings.
+
+Test only implemented features and do not create a feature/improvement requests for the mobile app as they will be rejected.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009z:,SCRUM Sprint 1,,,,,,10005,HUN-6,MOB,To Do,07/лют./26 4:28 PM
+[MOB] Communication,HUN-18,10017,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 4:28 PM,15/лют./26 12:48 PM,08/лют./26 6:18 PM,,,0,"The mobile app is an +MVP+ to make communication easier and, you know, more mobile. The app contains only some features of the web app e.g. some chat features, +IAM+, and profile settings.
+
+Test only implemented features and do not create a feature/improvement requests for the mobile app as they will be rejected.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0009r:,SCRUM Sprint 1,,,,,,10005,HUN-6,MOB,To Do,07/лют./26 4:28 PM
+[MOB] Onboarding,HUN-17,10016,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 4:27 PM,15/лют./26 3:34 PM,08/лют./26 6:17 PM,,,0,"The mobile app is an +MVP+ to make communication easier and, you know, more mobile. The app contains only some features of the web app e.g. some chat features, +IAM+, and profile settings.
+
+Test only implemented features and do not create a feature/improvement requests for the mobile app as they will be rejected.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,HUN-44,HUN-45,HUN-46,,,,,,,,,,,,,,0|i0009j:,SCRUM Sprint 1,,,,,,10005,HUN-6,MOB,To Do,07/лют./26 4:27 PM
+[MOB] Authentication,HUN-16,10015,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 4:26 PM,15/лют./26 12:58 PM,08/лют./26 1:23 PM,,,0,"The mobile app is an +MVP+ to make communication easier and, you know, more mobile. The app contains only some features of the web app e.g. some chat features, +IAM+, and profile settings.
+
+Test only implemented features and do not create a feature/improvement requests for the mobile app as they will be rejected.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,HUN-43,,,,,,,,,,,,,,,,0|i0009b:,SCRUM Sprint 1,,,,,,10005,HUN-6,MOB,To Do,07/лют./26 4:26 PM
+[WEB] Web3 companies and Jobs,HUN-15,10014,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:55 PM,15/лют./26 11:51 AM,08/лют./26 12:57 PM,,,0,"This page should contain a table with 100 web3 companies split by 10 like:
+
+* 10/100;
+* N/100;
+* 100/100.
+
+Each company should have a clickable logo and name. Clicking on it should open a page in a new tab with a list of vacancies for this company.
+
+Authorized users should be able to post a new job manually or using import from ATS.
+
+Applying with 1 click should be available for authorized users.
+
+
+
+To filter vacancies users should have filters with skills.
+
+
+
+Unauthorized users should only be able to observe some vacancies and after clicking on [View more] should be suggested to sign in.
+
+
+
+At the very bottom of the page users should have the ability to subscribe to vacancies using the form with the fields:
+
+* Desired roles;
+* Experience;
+* Email.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,HUN-42,,,,,,,,,,,,,,,,0|i00033:,SCRUM Sprint 1,,,,,,10004,HUN-5,WEB,To Do,07/лют./26 3:55 PM
+[WEB] Footer,HUN-14,10013,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:55 PM,15/лют./26 11:41 AM,08/лют./26 12:56 PM,,,0,"The footer should contain the following:
+
+* “TOP 100 WEB3 COMPANIES” with a preview of the top 5 companies;
+* 3 columns of vacancies for web3 developers;
+* links to social networks (LinkedIn, Twitter, Telegram, Signal, Instagram, Facebook);
+* links to documents, pricing, FAQ, and About us.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,HUN-39,HUN-40,HUN-41,,,,,,,,,,,,,,0|i0002v:,SCRUM Sprint 1,,,,,,10004,HUN-5,WEB,To Do,07/лют./26 3:55 PM
+[WEB] Profile,HUN-13,10012,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:54 PM,09/лют./26 10:33 AM,08/лют./26 12:55 PM,,,0,"Users should be able to have candidate and recruiter accounts simultaneously.
+
+After the registration, the user should be able to create a profile of the recruiter or the candidate.
+
+In the profile section, the user should be able to:
+
+* Edit his profile;
+* Switch between recruiter/user profiles;
+* Connect social networks (LinkedIn, GitHub, Google);
+* Change password.
+
+Users should be able to activate or deactivate their candidate profile in the profile settings.
+
+Admins should be able to edit user profiles at any time.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0002n:,SCRUM Sprint 1,,,,,,10004,HUN-5,WEB,To Do,07/лют./26 3:54 PM
+[WEB] Chats,HUN-12,10011,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:53 PM,09/лют./26 10:33 AM,08/лют./26 12:53 PM,,,0,"Recruiters should be able to initiate a chat with a candidate on the list of candidates and on the candidate profile page.
+
+Before contacting the candidate in the chat, the recruiter shouldn’t be able to see the contacts of the candidate.
+
+The candidate should be able to open their contacts or decline the recruiter’s proposition and not share contact details.
+
+The recruiter should be able to send the offer to the candidate or mark the chat as rejected.
+
+To group chats, candidates and recruiters should have the ability to Archive chats or mark them as Favourite.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0002f:,SCRUM Sprint 1,,,,,,10004,HUN-5,WEB,To Do,07/лют./26 3:53 PM
+[WEB] Sign In,HUN-11,10010,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:52 PM,09/лют./26 10:33 AM,08/лют./26 12:51 PM,,,0,"The Sign In page should have the “Sign up” link which redirects to the “Sign up” page, and the “Forgot the password” link which redirects to the “Forgot password” page.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00027:,SCRUM Sprint 1,,,,,,10004,HUN-5,WEB,To Do,07/лют./26 3:52 PM
+[WEB] Sign Up,HUN-10,10009,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:51 PM,12/лют./26 4:04 PM,23/лют./26 6:59 PM,,,0,"After entering the email and the password, there should be two options for how to continue registrations: as a recruiter or as a candidate.
+
+Available APIs for registration: Google, LinkedIn, GitHub.
+
+h3. As a recruiter
+
+During the registration process, the recruiter should be able to fill his position, the company, and his contact information.
+
+
+
+One of the main stages should be filling in the information about the required candidates:
+
+
+
+* the role of the candidate;
+* required technologies;
+* salary (annual/monthly);
+* years of experience;
+* English level;
+* Timezone or country/city of the candidate.
+
+At the end of the registration process, the recruiter should be redirected to the list of candidates.
+
+h3. As a candidate
+
+Stages of registration:
+
+# Role: info about desired position, tech skills (5-15);
+# Expectations: info about the experience, expected salary (annual or monthly, dollar or euro), English level, and location;
+# Experience: detailed information about experience, should be possible to export from LinkedIn;
+# Bio: info about the achievements of the candidate and expectations from work;
+# Contact Information: avatar, full name, CV to upload, and links to social networks.
+
+After successful registration, users should wait for profile activation by Admins during the next 24-48 hours.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,HUN-26,HUN-27,HUN-28,HUN-30,HUN-29,HUN-31,HUN-32,HUN-33,HUN-34,HUN-35,HUN-36,HUN-37,HUN-38,,,,0|i0001z:,SCRUM Sprint 1,,,,,,10004,HUN-5,WEB,To Do,07/лют./26 3:51 PM
+[WEB] Candidates list,HUN-9,10008,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:50 PM,10/лют./26 6:11 PM,08/лют./26 12:45 PM,,,0,"The list of candidates should look like a list of cards with info about a candidate. 
+
+h3. Filters
+
+Filters could be seen by any user, but only authorized users should be able to use them (unauthorized should be able to sign in/sign up by hovering over the filters section).
+
+Available filters should be:
+
+* Role;
+* Technologies;
+* Desired base salary (annual/monthly);
+* English level;
+* Candidate's location (Timezone/ Country and City).
+
+h3. Candidates and Candidate profile
+
+Each candidate card should contain a short description of the candidate's skills and achievements. Click on the “Show experience” should open all candidate’s experiences.
+
+The recruiter should have the ability to start the chat with a candidate, and the candidate should be warned that he has to create a recruiter’s profile before chatting with candidates.
+
+After clicking on the candidate’s card, the candidate’s profile should be opened in a new tab.
+
+The candidate’s profile should contain all information about the candidate, but contacts with the candidate should be hidden before the candidate opens it (available only after the chat with a candidate).
+
+Candidate’s experience should be sorted from the oldest to the newest positions.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,HUN-25,,,,,,,,,,,,,,,,0|i0001r:,SCRUM Sprint 1,,,,,,10004,HUN-5,WEB,To Do,07/лют./26 3:50 PM
+[WEB] Main page,HUN-8,10007,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:48 PM,12/лют./26 11:15 AM,23/лют./26 6:59 PM,,,0,"h3. For companies
+
+
+
+The main page landing. Contains info for recruiters about our product. This page should motivate recruiters to go to the list of candidates and sign up.
+
+The page should contain a comparison with other resources, quotes from the CEO, and logos of partners.
+
+h3. For engineers
+
+Default main page for all users. Should contain a form for registration by email and social networks (Google, LinkedIn, GitHub), and links to Jobs and Web3 companies.
+
+Authorized users should have a banner with the ad of the mobile app instead of a sign-up form.
+
+At the very bottom of the page, there should be at least 10 feedbacks from real users.",,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,HUN-24,,,,,,,,,,,,,,,,0|i0001j:,SCRUM Sprint 1,,,,,,10004,HUN-5,WEB,To Do,09/лют./26 6:23 PM
+DOC,HUN-7,10006,Epic,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:46 PM,07/лют./26 3:46 PM,,,,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001b:,,,,,,,,,,To Do,07/лют./26 3:46 PM
+MOB,HUN-6,10005,Epic,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:46 PM,07/лют./26 3:46 PM,,,,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i00013:,,,,,,,,,,To Do,07/лют./26 3:46 PM
+WEB,HUN-5,10004,Epic,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,Medium,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:46 PM,07/лют./26 3:46 PM,09/лют./26 6:24 PM,,,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0000v:,,,,,,,,,,To Do,07/лют./26 3:46 PM
+Subtask 2.1,HUN-4,10003,Subtask,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:21 PM,07/лют./26 3:21 PM,,,,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0000n:,SCRUM Sprint 1,,,,,,10001,HUN-2,Task 2,To Do,07/лют./26 3:21 PM
+Task 2,HUN-2,10001,Story,To Do,HUN,Huntd,software,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Your first project,,,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,07/лют./26 3:21 PM,17/лют./26 4:52 PM,23/лют./26 6:50 PM,,17/лют./26 12:00 AM,0,,,Illia Kabanchuk,712020:ead4aa1e-861f-4aed-a80d-570a0b9871c4,,,,,,,,,,,,,,,,,,,,,,,,,,0|i0001f:,SCRUM Sprint 1,,,,,,,,,To Do,07/лют./26 3:48 PM

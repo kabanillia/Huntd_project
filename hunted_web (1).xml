@@ -1,0 +1,5646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S6</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Logged out user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>For engineers page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C114</id>
+				<title>User should be redirected to the For engineers page by clicking the logo in the header from any page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Get started&quot; form</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C118</id>
+				<title>User is able to view the registration form immediately upon opening the For engineers page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[Google] icon button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C115</id>
+				<title>User is able to register using Google social account</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Linkedin] icon button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C116</id>
+				<title>User is able to register using LinkedIn social account</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[GitHub] icon button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C117</id>
+				<title>User is able to register using GitHub social account</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&apos;Email&apos; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C119</id>
+				<title>User is able to register using Email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[GET OFFERS] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C120</id>
+				<title>The user is able to log in by clicking the [GET OFFERS] button with filled required fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C121</id>
+				<title>The user is able to log in by pressing an Enter button with filled required fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Vacancy Preview</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Vacancy info</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[APPLY] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C122</id>
+				<title>User is able to be redirected to the Jobs page by clicking the [APPLY] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C123</id>
+				<title>User is able to be redirected to the specific company&apos;s vacancies on the Jobs page by clicking the [APPLY] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Web 2 to Web 3 section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Discover] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C124</id>
+				<title>User is able to navigate to the Jobs page by clicking the [Discover] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Engineers say (Feedbacks)</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Feedback carousel</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C125</id>
+				<title>User is able to view at least 10 feedbacks within the feedback carousel</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Footer</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C129</id>
+				<title>User is able to view three columns of vacancies specifically for Web3 developers in the footer</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>TOP 100 WEB3 COMPANIES block</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C126</id>
+				<title>User is able to view the logos of the top 5 companies in the footer</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C127</id>
+				<title>User is able to navigate to a specific company&apos;s vacancies by clicking its logo in the footer</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Coinbase&quot; logo link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Binance&quot; logo link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Near&quot; logo link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;GlobalID&quot; logo link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Consensys&quot; logo link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[VIEW TOP 100] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C128</id>
+				<title>User is able to be redirected to the TOP 100 WEB3 COMPANIES page by clicking the [VIEW TOP 100] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>TOP 100 WEB3 COMPANIES page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C140</id>
+				<title>User is able to view a table containing exactly 100 companies</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C141</id>
+				<title>User is able to see companies split into groups of 10</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[Companie] icon button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C139</id>
+				<title>User is able to be redirected to the Jobs page with vacancies of a specific company by clicking its icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Hire Web3 Developer column</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C130</id>
+				<title>User is able to be redirected to the Candidates list with an applied filter corresponding to the clicked link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Hire Backend Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Frontend Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Mobile Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Full-Stack Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire React Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Blockchain Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Defi Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Nft Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Smart Contract Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Solidity Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Hire Solana Web3 Developer&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Remote Web3 jobs column</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C131</id>
+				<title>User is able to be redirected to the Jobs page with an applied filter corresponding to the clicked specific vacancy link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Backend Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Frontend Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Mobile Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Full-Stack Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;React Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Defi Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Nft Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Javascript Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Smart Contract Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Solidity Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Solana Remote Web3 jobs&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Remote Web3 Salaries column</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C132</id>
+				<title>User is able to be redirected to the Jobs page with salary information corresponding to the clicked specific vacancy link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Backend Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Frontend Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Mobile Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Full-Stack Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;React Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Defi Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Nft Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Javascript Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Smart Contract Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Solidity Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Solana Remote Web3 Salaries&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Utility Navigation</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Terms of use&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C147</id>
+				<title>User is able to open the Terms of use PDF document via &quot;Terms of use&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Cookies policy&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C148</id>
+				<title>User is able to open the Cookies policy PDF document via &quot;Cookies policy&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Privacy policy&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C149</id>
+				<title>User is able to open the Privacy policy PDF document via &quot;Privacy policy&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;About us&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C146</id>
+				<title>User is able to navigate to the About us page via &quot;About us&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;FAQs&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C145</id>
+				<title>User is able to navigate to the FAQ page via &quot;FAQ&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Pricing&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C144</id>
+				<title>User is able to navigate to the Pricing page via &quot;Pricing&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Social</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C137</id>
+				<title>User is able to navigate to the official Telegram page via the &quot;Telegram&quot; icon link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C138</id>
+				<title>User is able to navigate to the official Signal page via the &quot;Signal&quot; icon link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Huntd&quot; logo icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C142</id>
+				<title>User is able to be redirected to the For engineers page by clicking the &quot;Huntd&quot; logo in the footer</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;LinkedIn&quot; icon link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C133</id>
+				<title>User is able to navigate to the official LinkedIn page via the &quot;LinkedIn&quot; icon link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Facebook&quot; icon link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C134</id>
+				<title>User is able to navigate to the official Facebook page via the &quot;Facebook&quot; icon link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Twitter&quot; icon link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C135</id>
+				<title>User is able to navigate to the official Twitter page via the &quot;Twitter&quot; icon link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Instagram&quot; icon link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C136</id>
+				<title>User is able to navigate to the official Instagram page via the &quot;Instagram&quot; icon link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>For companies page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Hero Section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[HIRE ENGINEERS] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C110</id>
+				<title>User is able to redirect to the candidates page by clicking [HIRE ENGINEERS] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Founder Section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>CEO profile info</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C108</id>
+				<title>User is able to see CEO quotes in the For companies page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Comparison Table</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C112</id>
+				<title>User is able to view a comparison table with other resources</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[HIRE TOP ENGINEERS] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C111</id>
+				<title>User is able to navigate to the Candidates page by clicking the [HIRE TOP ENGINEERS] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Value Proposition Section</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C109</id>
+				<title>User is able to see partner logos in the For companies page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[HIRE NOW] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C113</id>
+				<title>User is able to navigate to the Candidates page by clicking the [HIRE NOW] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Candidates page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Search Filters Blocks</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C150</id>
+				<title>Unauthorized user is unable to use filters on the Candidates page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C151</id>
+				<title>Unauthorized user is able to view filters on the Candidates page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Authorization pop-up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[FREE SIGN UP] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C152</id>
+				<title>Unauthorized user is able to trigger a sign up suggestion by hovering over the filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;SIGN IN&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C153</id>
+				<title>Unauthorized user is able to trigger a sign in suggestion by hovering over the filters section</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[VIEW 2509 MORE CANDIDATES] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C154</id>
+				<title>User is able to be redirected to the Sign up page by clicking the [VIEW 2509 MORE CANDIDATES] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Jobs page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Page Header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;POST A JOB&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C156</id>
+				<title>Unauthorized user is unable to post a job on the Jobs page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C157</id>
+				<title>Unauthorized user is able to trigger a sign up suggestion by clicking the &quot;POST A JOB&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Add job manually&quot; option</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Let&apos;s create a profile&quot; pop-up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Sign Up] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Import jobs from ATS&quot; option</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Let&apos;s create a profile&quot; pop-up</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[TOP COMPANIES] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C158</id>
+				<title>User is able to be redirected to the TOP 100 WEB3 COMPANIES page by clicking the [TOP COMPANIES] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>TOP 100 WEB3 COMPANIES page</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Tags</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C159</id>
+				<title>User is able to view relevant vacancy offers by clicking a specific tag on the Jobs page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Vacancies preview</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C160</id>
+				<title>User is able to open job details by clicking on the vacancy prerview</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Company logo</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Job details&quot; dropdown</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[1-CLICK APPLY] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C161</id>
+				<title>Unauthorized user is able to trigger a sign up suggestion by clicking the [1-CLICK APPLY] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Stay on top of web3 jobs&quot; Form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Desired roles&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C163</id>
+				<title>User is able to select values from &quot;Desired roles&quot; dropdown in the &quot;Stay on top of web3 jobs&quot; form</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Your experience&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C164</id>
+				<title>User is able to select values from &quot;Your experience&quot; dropdown in the &quot;Stay on top of web3 jobs&quot; form</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C165</id>
+				<title>User is unable to submit the subscription form with an empty &quot;Email&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C166</id>
+				<title>When the user leaves Email field empty, that validation message should be shown: “Email is required”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C167</id>
+				<title>User is not able to submit the subscription form using an invalid email form</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C169</id>
+				<title>User is able to submit the subscription form with a valid email address</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Desired annual salary&quot; slider</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C168</id>
+				<title>User is able to adjust the annual salary range using the slider</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[RECEIVE JOBS] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C170</id>
+				<title>When the user clicks the [RECEIVE JOBS] button with valid data, the success message should be shown: &quot;Subscription created&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>[View more] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C162</id>
+				<title>Unauthorized user is able to trigger a sign up suggestion by clicking the [View more] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign in page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Sign in&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C171</id>
+				<title>User should not be able to Sign in with unregistered Email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C172</id>
+				<title>The user should not be able to sign in without filling in the Email field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C173</id>
+				<title>The password field should mask the input with asterisks</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C174</id>
+				<title>The user should not be able to log in without filling in the Password field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C175</id>
+				<title>When the user leaves Password field empty, that validation message should be shown: “Password is required”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C176</id>
+				<title>User is unable to sign in with invalid data in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Show/Hide password&quot; icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C177</id>
+				<title>User is able to toggle password visibility by clicking the &quot;Show/Hide password&quot; icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>[SIGN IN] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C178</id>
+				<title>The user is able to log in by clicking the [Sign In] button with filled required fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C179</id>
+				<title>The user is able to log in by pressing an Enter button with filled required fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Forgot password&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C180</id>
+				<title>User is able to be redirected to the password recovery page by clicking the &quot;Forgot the password&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Social Sign in options</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Google] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C182</id>
+				<title>User is able to sign in via Google account by clicking the [Google] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[LinkedIn] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C183</id>
+				<title>User is able to sign in via LinkedIn account by clicking the [LinkedIn] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[GitHub] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C184</id>
+				<title>User is able to sign in via GitHub account by clicking the [GitHub] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Sign up&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C181</id>
+				<title>User should be redirected to the Sign Up page after clicking on &quot;Sign Up&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Sign up page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Create an account&quot; form</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C193</id>
+				<title>User is able to choose between Recruiter or Candidate roles after entering credentials on the Sign up page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Email&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C185</id>
+				<title>The user should not be able to sign up without filling in the &quot;Email&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C186</id>
+				<title>User is not able to sign up using an invalid email form</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C187</id>
+				<title>The &quot;Email&quot; field should not accept an already registered Email</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C188</id>
+				<title>When a user enters an email that is already taken, that validation message should be shown to the user: “Email is already taken.”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C189</id>
+				<title>The user should not be able to sign up without filling in the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Show/Hide password&quot; icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Repeat password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C190</id>
+				<title>The user should not be able to sign up without filling in the &quot;Repeat Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C191</id>
+				<title>The &quot;Repeat password&quot; field should not accept values different from the &quot;Password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Show/Hide password&quot; icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[CREATE ACCOUNT] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C192</id>
+				<title>The user is able to finish registration by clicking the [CREATE ACCOUNT] button with filled required fields</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[CANDIDATE hunting for interesting job offers] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Role&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Desired position&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C195</id>
+				<title>User is unable to continue with an empty &quot;Desired position&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Desired roles&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C196</id>
+				<title>User is unable to continue without selecting a value from the &quot;Desired roles&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Core technical skills&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C197</id>
+				<title>User is unable to continue with an empty &quot;Core technical skills&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C198</id>
+				<title>User is unable to proceed with 4 skills selected in the &quot;Core technical skills&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C199</id>
+				<title>User is able to proceed with 5 skills selected in the &quot;Core technical skills&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C200</id>
+				<title>User is able to proceed with 6 skills selected in the &quot;Core technical skills&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C201</id>
+				<title>User is able to proceed with 14 skills selected in the &quot;Core technical skills&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C202</id>
+				<title>User is able to proceed with 15 skills selected in the &quot;Core technical skills&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C203</id>
+				<title>User is unable to proceed with 16 skills selected in the &quot;Core technical skills&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C206</id>
+				<title>User is able to select any suggested skill from the &quot;Core technical skills&quot; suggestion list</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C207</id>
+				<title>User is able to select only valid technical skills from the &quot;Core technical skills&quot; suggestion list</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;i&quot; info icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C204</id>
+				<title>User is able to view a tooltip message by hovering over the &quot;i&quot; info icon in the &quot;Core technical skills&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>[SAVE AND CONTINUE] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C205</id>
+				<title>User is able to proceed to the next onboarding step by clicking the [SAVE AND CONTINUE] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Expectations&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Desired base salary&quot; toggle</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C208</id>
+				<title>User is able to toggle between monthly and annual salary types in the &quot;Desired base salary&quot; toggle</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C209</id>
+				<title>User is able to select between USD and EUR currencies</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;i&quot; info icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Desired salary in $&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C210</id>
+				<title>User is unable to proceed with an empty &quot;Desired salary in $&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Job experience&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C212</id>
+				<title>User is unable to proceed with an empty  &quot;Job experience&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;English level&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C211</id>
+				<title>User is unable to proceed with an empty  &quot;English level&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Your location&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C213</id>
+				<title>User is unable to proceed with an empty &quot;Your location&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Remote&quot; checkbox</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Office&quot; checkbox</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C214</id>
+				<title>User is able to access the &quot;Desired offices locations&quot; field by selecting the &quot;Office&quot; checkbox</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Desired offices locations&quot; field</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[SAVE AND CONTINUE] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Experience&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[UPLOAD FROM LINKEDIN] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C215</id>
+				<title>User is able to import profile data via LinkedIn integration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Link to my LinkedIn profile&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C216</id>
+				<title>User is unable to submit the &quot;Link to my LinkedIn profile&quot; field with an invalid URL format</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C217</id>
+				<title>User is unable to proceed with an empty &quot;Link to my LinkedIn profile&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;I grant permission to fetch and store my experience data to Huntd&quot; checkbox</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C218</id>
+				<title>User is unable to proceed without selecting the &quot;I grant permission to fetch and store my experience data to Huntd&quot; checkbox</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[IMPORT EXPERIENCE] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[CANCEL] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[ADD MANUALLY] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Delete&quot; icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C219</id>
+				<title>User is able to return to the experience import selection by clicking the &quot;Delete&quot; icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Role&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C220</id>
+				<title>User is able to enter data into the &quot;Role&quot; field manually</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C221</id>
+				<title>User is unable to proceed with an empty &quot;Role&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Company name&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C222</id>
+				<title>User is unable to proceed with an empty &quot;Company name&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Huntd&quot; icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C223</id>
+				<title>User is able to view a tooltip message by hovering over the &quot;Huntd&quot; icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Start date Month&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C224</id>
+				<title>User is unable to proceed with an empty &quot;Start date Month&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Start date Year&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C225</id>
+				<title>User is unable to proceed with an empty &quot;Start date Year&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C226</id>
+				<title>User is unable to proceed with a future date in the &quot;Start date Year&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;End date&quot; toggle</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;I&apos;M WORKING HERE&quot; tab</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;END DATE&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Month&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C228</id>
+				<title>User is unable to proceed with an empty &quot;Month&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Year&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C227</id>
+				<title>User is unable to proceed with an empty &quot;Year&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Achievements&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C229</id>
+				<title>User is able to proceed with an empty &quot;Achievements&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[SAVE] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Edit&quot; icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C230</id>
+				<title>User is able to edit their job experience by clicking the &quot;Edit&quot; icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Delete&quot; icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C232</id>
+				<title>User is able to delete their job experience by clicking the &quot;Delete&quot; icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C236</id>
+				<title>User is redirected to the experience import selection page after deleting the only added job experience</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[+ ADD] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C231</id>
+				<title>User is able to add a new job experience by clicking the [+ ADD] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Experience&quot; form</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[RELOAD] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C234</id>
+				<title>User is able to upload experience data from LinkedIn by clicking the [RELOAD] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Upload experience from LinkedIn&quot; pop-up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Close&quot; icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[AGREE] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[CANCEL] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[FETCH] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C233</id>
+				<title>User is able to upload experience data from LinkedIn by clicking the [FETCH] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Upload experience from LinkedIn&quot; pop-up</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[SAVE AND CONTINUE] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C235</id>
+				<title>User is unable to proceed after deleting the only added job experience</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>[CANCEL] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Bio&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Hints text info</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Frontend Engineer&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C238</id>
+				<title>User is redirected to the example page by clicking on the &quot;Frontend Engineer&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Mobile Engineer&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C239</id>
+				<title>User is redirected to the example page by clicking on the &quot;Mobile Engineer&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Backend Engineer&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C240</id>
+				<title>User is redirected to the example page by clicking on the &quot;Backend Engineer&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Achievements / Key results&quot; section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Achievements / Key results&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C237</id>
+				<title>User is unable to proceed with an empty &quot;Achievements / Key results&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;EXAMPLE&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C241</id>
+				<title>User is able to view text examples by clicking on the &quot;EXAMPLE&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Expectations from work&quot; section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Expectations from work (optional)&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C242</id>
+				<title>User is able to proceed with an empty &quot;Expectations from work (optional)&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;EXAMPLE&quot; dropdown</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;SAVE AND CONTINUE&quot; button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Contact information&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Avatar type&quot; toggle</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;NFT AVATAR&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Profile&quot; icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C243</id>
+				<title>User is able to select an NFT avatar by clicking the &quot;Profile&quot; icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Wallet address to receive free NFT&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C244</id>
+				<title>User is able to receive an NFT avatar to the address provided in the &quot;Wallet address to receive free NFT&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C245</id>
+				<title>User is able to proceed with an empty &quot;Wallet address to receive free NFT&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;i&quot; info icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;USUAL AVATAR&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;UPLOAD YOUR PHOTO&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C246</id>
+				<title>User is able to upload a profile photo by clicking the &quot;UPLOAD YOUR PHOTO&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Profile&quot; icon</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C247</id>
+				<title>User is able to upload a profile photo by clicking the &quot;Profile&quot; icon</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;First name&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C248</id>
+				<title>User is unable to proceed with an empty &quot;First name&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Last name&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C249</id>
+				<title>User is unable to proceed with an empty &quot;Last name&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[ATTACH CV] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C250</id>
+				<title>User is able to attach a CV by clicking the [ATTACH CV] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Linkedin (optional)&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C251</id>
+				<title>User is able to proceed with an empty &quot;Linkedin (optional)&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Behance (optional)&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C252</id>
+				<title>User is able to proceed with an empty &quot;Behance (optional)&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;GitHub (optional)&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C253</id>
+				<title>User is able to proceed with an empty &quot;GitHub (optional)&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[ACTIVATE PROFILE] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Congrats, your Hunter profile is all set!&quot; feedback form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Experience rating&quot; slider</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C256</id>
+				<title>User is able to set a proficiency level by dragging the &quot;Experience rating&quot; slider</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;How can we make the profile creation process better?&quot; textarea</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C257</id>
+				<title>User is able to proceed with an empty feedback textarea when a high rating is set on the &quot;Experience rating&quot; slider</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C258</id>
+				<title>User is unable to proceed with an empty feedback textarea when a low rating is set on the &quot;Experience rating&quot; slider</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[SEND] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C259</id>
+				<title>User is redirected to their profile with the &quot;Review takes up to 24 hours&quot; account status after successful registration</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[PREVIEW PROFILE] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Preview profile&quot; pop-up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;email&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Personal account&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C254</id>
+				<title>User is able to copy their account link by clicking the &quot;Personal account&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[COPY PROFILE LINK] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C255</id>
+				<title>User is able to copy their account link by clicking the [COPY PROFILE LINK] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[RECRUITER hiring talent] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Company details&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;My role&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C260</id>
+				<title>User is unable to proceed with an empty &quot;My role&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Company&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C261</id>
+				<title>User is unable to proceed with an empty &quot;Company&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[SAVE AND CONTINUE] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Contact Information&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;UPLOAD YOUR PHOTO&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Profile&quot; icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Wallet address to receive free NFT&quot; field</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;i&quot; info icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;First name&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C262</id>
+				<title>User is unable to proceed with an empty &quot;First name&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Last name&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C263</id>
+				<title>User is unable to proceed with an empty &quot;Last name&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Linkedin (optional)&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[SAVE AND CONTINUE] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Find your first engineers&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Search Filters Blocks</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Role&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C264</id>
+				<title>User is able to select any suggested option from the &quot;Role&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C265</id>
+				<title>User is able to proceed with an empty &quot;Role&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Technologies&quot;  field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C266</id>
+				<title>User is able to proceed with an empty &quot;Technologies&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C267</id>
+				<title>User is able to select any suggested option from the &quot;Technologies&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Desired base salary ANNUAL / MONTHLY&quot; toggle</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C269</id>
+				<title>User is able to toggle between &quot;Desired base salary ANNUAL / MONTHLY&quot; options</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Salary range&quot; slider</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C268</id>
+				<title>User is able to adjust the &quot;Salary range&quot; slider to set expected compensation</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;English level&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C271</id>
+				<title>User is able to proceed with an empty &quot;English level&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C273</id>
+				<title>User is able to select any suggested option from the &quot;English level&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Candidate&apos;s location&quot; toggle</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;TIMEZONE&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Show map&quot; toggle</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C274</id>
+				<title>User is able to hide the interactive map by switching the &quot;Show map&quot; toggle</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Interactive Timezone World Map</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Map range&quot; slider</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C275</id>
+				<title>User is able to set a timezone by adjusting the &quot;Map range&quot; slider</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;COUNTRY/CITY&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Select city or country&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C276</id>
+				<title>User is able to select a location by entering data into the &quot;Select city or country&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;i&quot; info icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Job experience&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C270</id>
+				<title>User is able to proceed with an empty &quot;Job experience&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C272</id>
+				<title>User is able to select any suggested option from the &quot;Job experience&quot; dropdown</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>[NEXT] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C277</id>
+				<title>User is able to proceed by clicking the [NEXT] button provided that at least one dropdown, field or slider is filled/adjusted</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Reach out to matching engineers&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Matching results info</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;... matching engineers found!&quot; status text</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Template message&quot; textarea</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C278</id>
+				<title>User is unable to proceed with an empty &quot;Template message&quot; textarea</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;Add to templates&quot; checkbox</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C280</id>
+				<title>User is able to add a title by clicking the &quot;Add to templates&quot; checkbox</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>‘’Add template title’’ field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C279</id>
+				<title>User is unable to proceed with an empty  ‘’Add template title’’ field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>[SEND] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C281</id>
+				<title>User is redirected to the Chat page after filling in all required fields and clicking the [SEND] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>&quot;REACH OUT TO ... ENGINEERS MANUALLY&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C282</id>
+				<title>User is redirected to the Candidates page after filling in all required fields and clicking the &quot;REACH OUT TO ... ENGINEERS MANUALLY&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C283</id>
+				<title>User is able to proceed without filling in required fields by clicking the &quot;REACH OUT TO ... ENGINEERS MANUALLY&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Social Sign up options</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Sign In&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C194</id>
+				<title>User should be redirected to the Sign In page after clicking on &quot;Sign In&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Logged in user (Candidate)</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>For engineers page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Mobile App Promo Section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Download on the App Store] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C284</id>
+				<title>User is redirected to the app page by clicking the [Download on the App Store] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[GET IT ON Google Play] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C285</id>
+				<title>User is redirected to the app page by clicking the [GET IT ON Google Play] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>QR-code interactive element</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C286</id>
+				<title>User is redirected to the app page by scanning the QR-code</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>All pages elements</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Twitter icon] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C287</id>
+				<title>User is redirected to the Twitter page by clicking the [Twitter icon] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[?] support icon button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C288</id>
+				<title>User is redirected to the feedback form by clicking the [?] support icon button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>For companies page</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Candidates page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Search Filters Blocks</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Candidates List Section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidate card</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C289</id>
+				<title>User is able to view a short description of skills and achievements on each candidate card on the Candidates page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C295</id>
+				<title>User should be redirected to the candidate&apos;s profile by clicking on the candidate card</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C296</id>
+				<title>User should be redirected to a new tab after clicking on the candidate card</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C297</id>
+				<title>User should be unable to view candidate contact details by default</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C300</id>
+				<title>User should be able to view candidate experience sorted from the oldest to the newest positions</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Candidate title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Summary details</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Core technical skills&quot; tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Achievements / Key results preview</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Considering roles&quot; tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[START CHAT] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C291</id>
+				<title>Authorized Candidate is able to view a recruiter registration popup by clicking the [START CHAT] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Create recruiter profile&quot; pop up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;X&quot; close icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[CREATE RECRUITER PROFILE] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;SHOW EXPERIENCE&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C294</id>
+				<title>User should be able to expand detailed professional experience on the card by clicking the [Show experience] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[10 More] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C301</id>
+				<title>User should be able to load 10 additional candidate previews by clicking the [10 More] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Jobs page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C303</id>
+				<title>Authorized user should be able to apply for a vacancy by clicking the [1-CLICK APPLY] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Chats page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C308</id>
+				<title>Candidate should be able to make their contact details visible by clicking the [Open contacts] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C309</id>
+				<title>Candidate should be able to reject a recruiter&apos;s proposition by clicking the [Decline] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Chat Filter Tabs</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;ALL&quot; tab</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;ARCHIVE&quot; tab</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Empty State Content</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;No messages yet&quot; text info</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Here you will have conversations about hiring&quot; text info</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Mobile App Promo Section</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C306</id>
+				<title>Logged-in user without chat activity should be able to view the Mobile App Promo Section</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Profile&quot; dropdown</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C316</id>
+				<title>User should be able to switch between Candidate and Recruiter accounts</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Preview profile&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C320</id>
+				<title>User should be able to view their profile appearance by clicking the &quot;Preview profile&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Profile Content Blocks</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Achievements / Key results&quot; text block</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Core technical skills&quot; tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Job expectations&quot; text block</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Considering roles&quot; tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Ready to work&quot; text block</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Experience&quot; card</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Header bar</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Role info</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Bio info</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[EDIT PROFILE] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Deactivate Profile] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C317</id>
+				<title>Candidate should be able to activate their profile visibility in settings by clicking [Activate Profile] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C318</id>
+				<title>Candidate should be able to deactivate their profile visibility in settings by clicking [Deactivate Profile] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>Side bar</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Name text info</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Email&apos; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Personal account&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[COPY PROFILE LINK] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Edit profile&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C319</id>
+				<title>User should be able to edit any registration data by clicking the &quot;Edit profile&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[PREVIEW PROFILE] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;ROLE&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;ROLE&quot; form</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;EXPECTATIONS&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;EXPECTATIONS&quot; form</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;EXPERIENCE&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;EXPERIENCE&quot; form</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;BIO&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;BIO&quot; form</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;CONTACTS&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;CONTACTS&quot; form</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Account settings&quot; link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;SOCIAL PROFILES&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[CONNECT] button for LinkedIn</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C321</id>
+				<title>User should be able to connect their social profile by clicking the [CONNECT] button for LinkedIn</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[CONNECT] button for GitHub</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C322</id>
+				<title>User should be able to connect their social profile by clicking the [CONNECT] button for GitHub</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[CONNECT] button for Google</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C323</id>
+				<title>User should be able to connect their social profile by clicking the [CONNECT] button for Google</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;CHANGE PASSWORD&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[CHANGE PASSWORD] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Current password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C324</id>
+				<title>User should be unable to change password with an empty &quot;Current password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C325</id>
+				<title>User should be unable to change password by entering invalid data into the &quot;Current password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[Show/Hide password] icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;New password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C326</id>
+				<title>User should be unable to change password if data in &quot;New password&quot; and &quot;Repeat new password&quot; fields do not match</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C327</id>
+				<title>User should be unable to change password with an empty &quot;New password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[Show/Hide password] icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Repeat new password&quot; field</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C328</id>
+				<title>User should be unable to change password with an empty &quot;Repeat new password&quot; field</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[Show/Hide password] icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[SAVE CHANGES] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C329</id>
+				<title>User should be able to change their password by filling in all required fields with valid data and clicking the [SAVE CHANGES] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[CANCEL] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Sign out&quot; link</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C330</id>
+				<title>User should be able to log out of the account by clicking the &quot;Sign out&quot; link</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Logged in user (Recruiter)</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>For engineers page</name>
+		<description></description>
+									</section>
+			<section>
+		<name>For companies page</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Candidates page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Search Filters Blocks</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Saved filter&quot; dropdown</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Rename&quot; link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Filter name&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Save title&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;X&quot; close icon</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Saved filters &amp;Subscribe] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Clear filters] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Circular progress bar</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Candidates List Section</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidate card</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C307</id>
+				<title>Authorized Recruiter should be able to send a message to a candidate from the candidate&apos;s profile page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C298</id>
+				<title>User should see the &quot;CV and contacts are hidden. To make them visible, send a message to the candidate&quot; message instead of contact details</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+															<case>
+				<id>C299</id>
+				<title>Authorized Recruiter with an active message thread should be able to view candidate contact details</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Candidate title</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Summary details</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Core technical skills&quot; tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Achievements / Key results preview</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Considering roles&quot; tags</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[START CHAT] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C292</id>
+				<title>Authorized Recruiter is able to view the &quot;Send connection request&quot; popup by clicking the [START CHAT] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Send connection request&quot; pop up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;X&quot; close icon</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Message&quot; textarea</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Add to templates&quot; checkbox</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Add template title&quot; field</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Send message] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C293</id>
+				<title>Authorized Recruiter is able to send a connection message by clicking the [Send message] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;SHOW EXPERIENCE&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[10 More] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>Jobs page</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C302</id>
+				<title>Authorized Recruiter should see a candidate registration popup after clicking the [1-CLICK APPLY] button on the job page</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Post a job&quot; dropdown</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Add job manualy] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C304</id>
+				<title>Authorized Recruiter should be able to post a job manually by clicking the [Add job manualy] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>&quot;Reach exclusive engineers&quot; pop up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Job details&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Contact information&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Post a job] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Import job from ATS] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C305</id>
+				<title>Authorized Recruiter should be able to post a job using import from ATS by clicking the [Import job from ATS] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>[Greenhouse] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Import jobs by ATS ID&quot; form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;ATS ID&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Add jobs] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Back] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>[Lever] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Import jobs by ATS ID&quot; form</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Chats page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;All&quot; Tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Circular progress bar</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C310</id>
+				<title>Authorized Recruiter should be able to track the number of contacted candidates via the Circular progress bar</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>Candidate chat preview list</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidate role</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Last time online info</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Kebab icon</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Delete] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C311</id>
+				<title>User should be able to delete a chat by clicking the [Delete] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Archive] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C312</id>
+				<title>User should be able to move a chat to the archive by clicking the [Archive] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Active chat header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidate info</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidate Profile Page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Profile Content Blocks</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Header bar</name>
+		<description></description>
+									</section>
+			<section>
+		<name>CV and contacts are hidden info text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[SEND MESSAGE] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Status kebab icon</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>[Hire candidate] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C313</id>
+				<title>Authorized Recruiter should be able to hire a candidate by clicking the [Hire candidate] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[Reject candidate] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C314</id>
+				<title>Authorized Recruiter should be able to reject a candidate by clicking the [Reject candidate] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>Message history area</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Type a message...&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Send message] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C315</id>
+				<title>User should be able to send a chat message by clicking the [Send message] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;ARCHIVE&quot; Tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidate chat preview list</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Active chat header</name>
+		<description></description>
+									</section>
+			<section>
+		<name>Message history area</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Type a message...&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Send message] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Profile&quot; dropdown</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Preview profile&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Edit profile&quot; link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Company details&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;My role&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Company&quot; field</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Contacts&quot; tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Contacts&quot; form</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Hiring Management&quot; link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Hirings&quot; Tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>No hirings yet text info</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Search Engineers] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C331</id>
+				<title>User should be able to navigate to the candidates page by clicking the [Search Engineers] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Connection&quot; Tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Connection table</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidate column</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Contacts hidden info</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Chat icon] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C332</id>
+				<title>User should be able to navigate to the chat page by clicking the [Chat icon] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[REJECTED] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C333</id>
+				<title>User should be able to reject a candidate by clicking the [REJECTED] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[HIRED] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C334</id>
+				<title>User should be able to hire a candidate by clicking the [HIRED] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+			<section>
+		<name>[IN PROGRESS] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[SUBMIT] button</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C335</id>
+				<title>User should confirm actions regarding the candidate by clicking the [SUBMIT] button</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Subscription&quot; Tab</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Individual Subscription Card</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C336</id>
+				<title>User should be able to create and save custom filters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>Filters Blocks</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[VIEW CANDIDATES] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Candidates page</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+			<section>
+		<name>[UNSUBSCRIBE] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Message Template&quot; Tab</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C337</id>
+				<title>User should be able to create and save personal message templates</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																												<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+									</custom>
+								<is_converted>0</is_converted>
+			</case>
+								</cases>
+								<sections>
+		<section>
+		<name>No message templates yet info text</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Add a message template] button</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>&quot;Template title&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Message&quot; field</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Save] button</name>
+		<description></description>
+									</section>
+			<section>
+		<name>[Cancel] button</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+			<section>
+		<name>&quot;Account settings&quot; link</name>
+		<description></description>
+									</section>
+			<section>
+		<name>&quot;Sign out&quot; link</name>
+		<description></description>
+									</section>
+	</sections>
+			</section>
+	</sections>
+			</section>
+	</sections>
+</suite>
